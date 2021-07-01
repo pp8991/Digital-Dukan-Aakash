@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello/fontello.eot?61810063');
+    src: url('../fonts/fontello/fontello.eot?61810063#iefix') format('embedded-opentype'),
+    url('../fonts/fontello/fontello.woff?61810063') format('woff'),
+    url('../fonts/fontello/fontello.ttf?61810063') format('truetype'),
+    url('../fonts/fontello/fontello.svg?61810063#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.demo-icon
+{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{margin:0;padding:0;color: #000;background-color: #fff;font-family:'Roboto', sans-serif; }
+nav{background-color: #1C2836;padding:6px;}
+.uk-navbar-center{margin-left: 10%;}
+.text-white{color: #fff!important;}
+.info_list{line-height: 1.35em;font-size: 14px;}
+.info_list li a{font-size: 14px;}
+.social_list{align-items:center;justify-content: center;list-style: none;}
+.social_list li{margin-right: 8px;}
+.social_list li a{padding: 0;min-height: 10px;}
+.text-peach{color: #1C2836!important;}
+.uk-icon-button:focus, .uk-icon-button:hover{color: #935D28!important;}
+.icon_wrapper{
+	width: 29px;
+    height: 29px;
+    background: white;
+    border-radius: 28px;
+    font-size: 19px;
+    text-align: center;
+}
+h2{font-size: 40px;font-weight: 500;color:#000;}
+.form_submit button{
+    background-color: #1C2836;color: #fff!important;
+    border-radius: 50px;width: 170px;font-weight: bold;letter-spacing: 2px;
+    text-decoration: none!important;padding:10px 30px;border:1px solid #1C2836;outline: none;cursor: pointer;
+}
+.know_more button{
+	background-color: #1C2836;color: #fff!important;border-radius: 50px;
+    padding: 15px 45px;text-align: center;text-transform: uppercase;
+    font-weight: bold;letter-spacing: 2px;outline:none;cursor:pointer;border:1px solid #1C2836;
+}
+.product_info_bg{background-color: #f1f1f1;padding:5% 0;}
+.img_caption{font-weight: bold;padding-top: 20px;color:#000;}
+.footer-form{background-color: #bbb;padding:5% 0;}
+h1,h4{font-size: 24px;font-weight: bold;color: #777;}
+h2{font-size: 38px;font-weight: 500;color:#000;}
+.copyright{font-size: 12px;}
+hr{border-color: rgba(255,255,255,0.3)!important;}
+.info_div{font-size: 14px!important;}
+.info_div p{margin:0!important;}
+.info_div ul,.info_div ol{margin-top:10px!important;margin-bottom:10px!important;}
+.user_form{
+    right: 4%;top: 1%;background-color: #fff;padding:0.5% 1%;text-align: center;
+}
+.user_form_footer{padding:7% 2.5%;}
+.user_form .ukinp,select{width: 290px!important;border-color: #F3BE5B!important;}
+.pd-form{
+    padding-bottom: 8%!important;
+    padding-top: 6%!important;
+}
+.uk-border-peach{border:1px solid #ccc;}
+.iti__selected-flag{
+    border-top-left-radius: 20px;border-bottom-left-radius: 20px;outline: none;
+}
+.footer_content{width: 70%;}
+
+
+.loading_gif{
+    position: fixed;width: 100%;height: 100vh;top:0;left:0;
+    background-color: rgba(255,255,255,0.5);align-items: center;
+    display: flex;
+    justify-content: center;z-index: 1;
+    display: none;
+}
+.footer_reg{
+    background-color: #2e4765;
+    color:#fff;
+    padding: 1.23%;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+@media only screen and (max-width: 768px){
+    h2{font-size: 30px;}
+    .info_list li{float: left;margin-right: 15px;margin-right: 10px;margin-top: 0!important;}
+    .info_list li span{font-size: 12px;}
+    .footer_content{width: 100%;}
+    .user_form{box-shadow: 4px 4px 5px rgba(0,0,0,0.1);}
+    .footer_reg{ padding: 3%;}
+    .info_list{ display: grid;}
+    
+    .uk-navbar-left{ width: 100% !important; text-align: center; margin: 0 auto; display: block;}
+    .uk-navbar-center{ width: 100% !important; text-align: center; margin: 0 auto; display: block; margin-top: 80px;}
+    .uk-navbar-right{ display: none;}
+    .div_center{display: table;}
+    #header{ height: 160px;}
+
+
+}
+
+@media only screen and (width: 768px){
+    .user_form_footer{width: 50%;margin: 0 auto;}
+    .user_form{position: relative!important;}
+    .uk-position-absolute.user_form.uk-border-rounded{width: 50%;margin:5% auto;border: 1px solid #777;}
+}
+.uk-notification-bottom-center, .uk-notification-top-center{top: 32%!important;}
